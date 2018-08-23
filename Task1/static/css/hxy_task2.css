@@ -1,0 +1,331 @@
+/*顶部*/
+/*顶部第一行*/
+#head_firstline {
+	width: 100%;
+	height: 120px;
+}
+
+#logo {
+	display: block;
+	width: 10%;
+	height: 120px;
+	background-image: url(../img/th.jpg);
+	background-size: 100% 100%;
+	/*position: absolute;*/
+	/*background-color: red;*/
+	float: left;
+}
+
+#logo_a {
+	width: 100%;
+	height: 20px;
+	/*position: absolute;
+	right: 0px;
+	bottom: 0px;*/
+	text-align: right;
+	margin-top: 90px;
+}
+
+#logo_one {
+	color: #58ABCB;
+	
+}
+
+#logo_one:hover {
+	color: #E9913C;
+}
+
+#Classify {
+	display: block;
+	height: 120px;
+	width: 10%;
+	text-align: right;
+	float: left;
+	line-height: 200px;
+	/*clear: left;*/
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+#Classify_a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+#Classify_a:hover {
+	color: darkgrey;
+}
+
+.Users {
+	width: 6%;
+	height: 120px;
+	display: block;
+	float: left;
+}
+
+.Users_a {
+	text-decoration: none;
+	color: #4682BE;
+	line-height: 200px;
+}
+
+.Users_a:hover {
+	text-decoration: underline;
+	color: #FDAF47;
+}
+
+.Servers {
+	display: block;
+	float: right;
+	height: 90px;
+	width: 6%;
+	border: 2px solid white;
+	line-height: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.Servers:hover {
+	border-color: gainsboro;
+}
+
+.Servers_a {
+	color: black;
+}
+.word_two {
+	font-size: 20px;
+}
+
+.word_three {
+	font-size: 20px;
+	line-height: 90px;
+}
+
+#second_nav {
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	
+}
+
+#second_nav a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#second_nav a:hover {
+	color: #FDAF47;
+}
+
+#second_nav ul {
+	list-style: none;
+	color: white;
+	font-size: 20px;
+}
+
+#second_nav li {
+	float: left;
+	/*width: 7%;*/
+}
+
+.nav_one {
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+
+/*主体商品价格及图片介绍*/
+/*#main_first {
+	width: 100%;
+}*/
+
+.small_pictrue {
+	float: left;
+	clear: left;
+	border: 1px solid darkgrey;
+	width: 3%;
+	margin-top: 6px;
+}
+
+.small_pictrue img {
+	width: 100%;
+}
+
+#small_pictrue_first {
+	margin-top: 50px;
+}
+
+.big_pictrue {
+	float: left;
+	width: 40%;
+	position: relative;
+	top: -300px;
+	left: 0px;
+}
+
+.big_pictrue img {
+	width: 80%;
+}
+
+/*价格及商品文字介绍部分*/
+#first_introduce {
+	font-size: 17px;
+	display: block;
+	float: left;
+	width: 30%;
+	position: relative;
+	top: -300px;
+	left: 0px;
+}
+
+#first_introduce a {
+	text-decoration: none;
+}
+
+#first_a {
+	color: #5F91CF;
+	font-size: 20px;
+}
+
+#first_a:hover {
+	color: #E77600;
+	text-decoration: underline;
+}
+
+#original_one {
+	text-align: center;
+	background-color: darkgrey;
+}
+
+#original_one a {
+	color: white;
+}
+
+#original_two {
+	color: darkgrey;
+}
+
+#second_a {
+	color: #89CBDE;
+}
+
+#second_a:hover {
+	color: #E77600;
+	text-decoration: underline;	
+}
+
+#price {
+	display: inline-block;
+	color: #B12704;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.word_four {
+	color: #4F8A87;
+}
+
+.third_a {
+	color: #4B89CE;
+}
+
+.third_a:hover {
+	color: #E77600;
+	text-decoration: underline;	
+}
+
+#first_introduce ul {
+	color: grey;
+}
+
+#first_introduce li p {
+	color: black;
+}
+
+/*其他用户浏览的商品部分*/
+#main_second {
+	width: 100%;
+	float: left;
+	clear: left;
+	position: relative;
+	top: -200px;
+	left: 0px;
+}
+
+#main_second .ad {
+	font-size: 24px;
+	font-weight: bolder;
+	font-family: "黑体";
+}
+
+.ad_picture {
+	width: 15%;
+	margin-right: 1%;
+	float: left;
+}
+
+.ad_picture a {
+	text-decoration: none;
+}
+
+.ad_picture a:hover {
+	color: #E77600;	
+}
+
+.ad_picture .ad_word1 {
+	color: #378CD1;
+}
+
+.ad_word1:hover {
+	text-decoration: underline;	
+}
+
+.ad_word2 {
+	color: #A22408;
+	font-size: 20px;
+}
+
+/*基本信息部分*/
+#main_third {
+	width: 100%;
+	float: left;
+	position: relative;
+	top: -180px;
+	left: 0px;
+}
+
+#main_third p {
+	line-height: 30px;
+}
+
+#main_third a {
+	text-decoration: none;
+	color: #0066CB;
+}
+
+#main_third a:hover {
+	color: #E77600;
+	text-decoration: underline;
+}
+
+/*产品信息部分*/
+#main_four {
+	width: 100%;
+	float: left;
+	position: relative;
+	top: -150px;
+	left: 0px;
+}
+
+/*商品描述部分*/
+#main_five {
+	width: 100%;
+	float: left;
+	/*clear: left;*/
+	position: relative;
+	top: -100px;
+	left: 0px;
+}

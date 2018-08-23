@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/css/hxy_task2.css"/>
+</head>
+<body>
+<!--顶部-->
+<header>
+    <!--顶部第一行-->
+    <div id="head_firstline" class="d-flex justify-content-start">
+				<span id="logo" class="p1">
+					<div id="logo_a">
+						<a href="https://www.amazon.cn/gp/prime/ref=nav_logo_prime_join" id="logo_one">
+							<b>免费试享Prime</b>
+						</a>
+					</div>
+				</span>
+        <span id="Classify">
+					<a href="#" id="Classify_a">
+						<b>全部商品分类</b>						
+					</a>														
+				</span>
+        <span id="User_one" class="Users">
+					<a class="Users_a" href="#">
+						我的亚马逊
+					</a>
+				</span>
+        <span id="User_two" class="Users">
+					<a class="Users_a" href="#">
+						z秒杀
+					</a>
+				</span>
+        <span id="User_three" class="Users">
+					<a class="Users_a" href="#">
+						礼品卡
+					</a>
+				</span>
+        <span id="User_four" class="Users">
+					<a class="Users_a" href="#">
+						我要开店
+					</a>
+				</span>
+        <span id="User_five" class="Users">
+					<a class="Users_a" href="#">
+						海外购
+					</a>
+				</span>
+        <span id="User_six">
+					<a class="Users_a" href="#">
+						帮助
+					</a>
+				</span>
+        <span id="User_seven" class="Users">
+					<a class="Users_a" href="#">
+						In English
+					</a>
+				</span>
+        <a href="#" class="Servers_a">
+					<span class="Servers word_three">
+						<b>心愿单</b>						
+					</span>
+        </a>
+        <a href="#" class="Servers_a">
+					<span class="Servers word_three">
+						<b>购物车</b>					
+					</span>
+        </a>
+        <a href="#" class="Servers_a">
+					<span class="Servers">
+						<p class="word_one">免费试享</p>
+						<p class="word_two">
+							<b>Prime</b>							
+						</p>
+					</span>
+        </a>
+        <a href="#" class="Servers_a">
+					<span class="Servers">
+						<p class="word_one">您好，登录</p>
+						<p class="word_two">
+							<b>我的账户</b>
+						</p>
+					</span>
+        </a>
+    </div>
+    <!--第二行导航栏-->
+    <div id="second_nav">
+        <ul>
+            <li>
+                <p>
+                    <a href="#">海外购</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">服饰</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">鞋靴</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">数码</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">厨具</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">母婴</a> |
+                </p>
+
+            </li>
+            <li>
+                <p>
+                    <a href="#">玩具</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">运动</a> |
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="#">个护</a> |
+                </p>
+            </li>
+        </ul>
+        <span class="nav_one">
+					<p>
+						|<a href="#">排行</a>	
+					</p>									
+				</span>
+        <span class="nav_one">
+					<p>
+						|<a href="#">品牌</a>
+					</p>					
+				</span>
+    </div>
+</header>
+<!--主体-->
+<div id="main">
+    <!--主体商品价格及图片介绍-->
+    <div id="main_first">
+				<span id="first_picture">
+					<a href="#">
+						<div class="small_pictrue" id="small_pictrue_first">
+							<img src="../static/img2/81OD9sBMhjL._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="small_pictrue">
+							<img src="../static/img2/81gWwVS-fvL._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="small_pictrue">
+							<img src="../static/img2/61gZQr8od8L._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="small_pictrue">
+							<img src="../static/img2/81GFKwC8mkL._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="small_pictrue">
+							<img src="../static/img2/811jspJJmkL._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="small_pictrue">
+							<img src="../static/img2/81I0jIAvvGL._UL1500_.jpg"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="big_pictrue">
+							<img src="{{i[0]}}"/>
+						</div>
+					</a>
+				</span>
+        <!--价格及商品文字介绍部分-->
+        <span id="first_introduce">
+					<p>
+						<a href="#" id="first_a" class="introduce_aone">FORSINING</a>
+						<br/>
+						<h1>{{i[1]}} </h1>
+						<div id="original">
+							<span id="original_one">
+								<a href="#">原文</a>
+							</span>
+							<span id="original_two">页面含机器翻译，中文仅供参考，以原文为准</span>
+						</div>
+						<a href="#" id="second_a">分享我的评价</a>|
+						<hr class="line"/>
+						&nbsp;&nbsp;价格：<p id="price">{{i[2]}}</p>
+						<br/>
+						支付方式:	目前支持信用卡、借记卡、支付宝和微信支付。暂不支持礼品卡付款。
+						<p class="word_four">现在有货</p>
+						送达日期:	海外购标准配送预计7-12个工作日送达。
+						<br/>
+						<br/>
+						销售配送:	由亚马逊美国从境外直接销售并发货, 购买行为受亚马逊海外购使用条件和美国法律的约束。<a href="#" class="third_a">了解更多</a>
+						<br/>
+						<br/>
+						<img src="../static/img2/custom_condition_identification._CB275495301_.png"/>
+						购买海外购商品需要提供身份证信息用于清关（清关时间延长有可能影响部分订单的实际送达日期）。<a href="#" class="third_a">了解更多</a>
+						<br/>
+						<br/>
+						退换承诺: 
+						<br/>
+						海外购商品适用亚马逊美国<a href="#" class="third_a">退货政策</a>。 海外购商品将被退回亚马逊美国仓库。具体操作方法请参考<a href="#"
+                                                                                                       class="third_a">退货退款流程</a>。
+						<br/>
+						<ul>
+							<li>
+								<p>品质17-jewels 机械 hand-wind 和骨架模拟表盘</p>
+							</li>
+							<li>
+								<p>不锈钢皇冠和底盖和*表盘设计彰显您的时尚 Point of view</p>
+							</li>
+							<li>
+								<p>保护性矿物*玻璃合金外壳不锈钢网状手镯</p>
+							</li>
+							<li>
+								<p>100% 全新和提供运单号。自己的工厂所有手表都是原始</p>
+							</li>
+							<li>
+								<p>附送原装礼盒手表手动。两年保修</p>
+							</li>
+							<li>
+								<p>亚马逊海外购的商品由境外网站所在的原销售地的品牌商提供售后保修，该等保修和其他售后可能不覆盖中国，详情请联系品牌商的售后咨询</p>
+							</li>
+						</ul>
+						<hr/>
+                    </p>
+				</span>
+        <span id="shopping_car"></span>
+    </div>
+    <!--其他用户浏览的商品部分-->
+    <div id="main_second">
+        <hr/>
+        <p class="ad">浏览此商品的用户还浏览过：</p>
+        {%for id,wacth in r.items():%}
+        <div class="ad_picture">
+					<span>
+						<a href="/wacth/{{id}}">
+							<img src="{{wacth[0]}}"/>
+							<p class="ad_word1">{{wacth[1][0:60]}}</p>
+						</a>
+						<p class="ad_word2">{{wacth[2]}}</p>
+					</span>
+
+        </div>
+        {%endfor%}
+        <hr/>
+    </div>
+    <!--基本信息部分-->
+    <div id="main_third">
+        <h1>基本信息</h1>
+        <p>
+            <b>商品重量</b>: 200 g
+            <br/>
+            <b>发货重量:</b> 200 g
+            <br/>
+            <b>ASIN:</b> B072WMZYX8
+            <br/>
+            用户评分:<a href="#">分享我的评价</a>
+            <br/>
+            您想<a href="#"><b>告诉我们您发现了更低的价格</b></a>?
+        </p>
+        <hr/>
+    </div>
+    <!--产品信息部分-->
+    <div id="main_four">
+        <h1>产品信息</h1>
+        <p><b>钟表信息</b></p>
+        <ul>
+            <li>
+                <span class="info_one">品牌名称</span>
+                <span class="info_two">FORSINING</span>
+            </li>
+            <li>
+                <span class="info_one">配件号</span>
+                <span class="info_two">FSG8126M4S3</span>
+            </li>
+            <li>
+                <span class="info_one">表盘形状</span>
+                <span class="info_two">圆形</span>
+            </li>
+            <li>
+						<span class="info_one">
+							<a href="#">表镜材质</a>
+						</span>
+                <span class="info_two">hardlex</span>
+            </li>
+            <li>
+                <span class="info_one">显示方式</span>
+                <span class="info_two">analog</span>
+            </li>
+            <li>
+                <span class="info_one">表盘材质</span>
+                <span class="info_two">不锈钢</span>
+            </li>
+            <li>
+						<span class="info_one">
+							<a href="#">表盘直径</a>
+						</span>
+                <span class="info_two">40 毫米</span>
+            </li>
+            <li>
+                <span class="info_one">表盘厚度</span>
+                <span class="info_two">12</span>
+            </li>
+            <li>
+						<span class="info_one">
+							<a href="#">表带材质</a>
+						</span>
+                <span class="info_two">不锈钢</span>
+            </li>
+            <li>
+						<span class="info_one">
+							<a href="#">表带宽度</a>
+						</span>
+                <span class="info_two">24毫米</span>
+            </li>
+            <li>
+                <span class="info_one">表盘颜色</span>
+                <span class="info_two">银色</span>
+            </li>
+            <li>
+                <span class="info_one">表盘颜色</span>
+                <span class="info_two">白色</span>
+            </li>
+            <li>
+                <span class="info_one">圈口材质</span>
+                <span class="info_two">不锈钢</span>
+            </li>
+            <li>
+                <span class="info_one">特殊功能</span>
+                <span class="info_two">analogue</span>
+            </li>
+            <li>
+                <span class="info_one">重量</span>
+                <span class="info_two">200克</span>
+            </li>
+            <li>
+						<span class="info_one">
+							<a href="#">动力类型</a>
+						</span>
+                <span class="info_two">mechanical-hand-wind</span>
+            </li>
+        </ul>
+        <hr/>
+    </div>
+    <!--商品描述部分-->
+    <div id="main_five">
+        <h2>商品描述</h2>
+        <p>
+            本 forsining 自动指针式手表提供的方便且耐用的时尚手表自适应的款式适合一个作品每一天。
+            <br/>
+            功能无需电池拥有自动与您的手臂的运动。 完全蜿蜒了弹簧需要可转动表冠15轮。
+            <br/>
+            如果穿超过10小时每天蜿蜒以上不会很有必要。 所有的手表上的小箭头可以锻炼。
+            <br/>
+            该表带采用不锈钢材质采用优质的不锈钢表扣。 不锈钢表冠和底盖。 它具有90天有限制造商保修。
+            <br/>
+            主要特点
+            <br/>
+            - – 设计由著名 forsining 手表制造商。 这是来自他的另一款出众设计设计团队。
+            <br/>
+            - – 精准机芯带*新突破。
+            <br/>
+            - – 机械技术专利。
+            <br/>
+            - – 特别设计金属壳高品质真皮表带。
+            <br/>
+            - – 小巧的设备作曲技术由来自 forsining 手表生产。
+            <br/>
+            - – 防水结构不适合游泳潜水淋浴等
+            <br/>
+            包装清单
+            <br/>
+            - 1 x 真正 forsining 手表
+            <br/>
+            - 1 x 礼品盒
+            <br/>
+            - 1 x 手表说明书
+            <br/>
+            成立于2006年 forsining 手表有限公司是全球领先设计工艺和分布并与自动机械手表、挂钟。
+            <br/>
+            该公司生产自己专有品牌包括得主 jargar forsining 。
+            <br/>
+            forsining 手表公司限量还设计和制造商手表、挂钟下私人 B2 °C *的零售商的标签大多数人在 ebay Amazon 上出售。 aliexpress 。 等。
+            <br/>
+            forsining 具有良好的设计团队。 brining 在一起的创意增添时尚专家的首都在法国意大利和香港。
+            <br/>
+            这种 contemplative 艺术工艺*多种具有无与伦比的外观现代消费者的绝对吸引眼球和精致品味。
+        </p>
+    </div>
+</div>
+<footer></footer>
+</body>
+</html>
